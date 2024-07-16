@@ -1,0 +1,122 @@
+p{
+    font-family: "Black Han Sans", sans-serif;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    margin-top: 0;
+    background-image: url(./background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.background .main{
+    text-align: center;
+    margin-top: 0;
+}
+
+
+.title{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.main-text{
+    margin-top: 10px;
+    font-size: 28px;
+    transition: font-size 0.2s;
+    margin-bottom: 65px;
+}
+
+.main-text:hover{
+    font-size: 36px;
+    transition: font-size 0.2s;
+}
+
+img{
+    box-shadow: 10px 10px 10px rgba(0 ,0 ,0 ,0.15);
+    width: 20%;
+    height: 30vh;
+    margin-top: 0;
+}
+
+button{
+    font-family: Arial;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(177, 177, 177);
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px rgba(0 ,0 ,0 ,0.15);
+    cursor: pointer;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    transform: translate(-50% -50%);
+    transition: font-size 0.2s, color 0.2s, padding-top 0.2s, padding-bottom 0.2s, padding-left 0.2s, padding-right 0.2s;
+}
+
+button:hover{
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: red;
+    transition: font-size 0.2s, color 0.2s, padding-top 0.2s, padding-bottom 0.2s, padding-left 0.2s, padding-right 0.2s;
+}
+
+/* 기존 CSS는 변경하지 않습니다 */
+
+/* 추가되는 CSS */
+.result-container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.result-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.result-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.result-container .next-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.result-container .next-button:hover {
+    background-color: #218838;
+}
+
+.result-background {
+    background-color: #f9f9f9; /* Change this if needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

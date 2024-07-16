@@ -1,0 +1,68 @@
+button{
+    font-family: Arial;
+    font-size: 68px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    padding-left: 30%;
+    padding-right: 30%;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(177, 177, 177);
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px rgba(0 ,0 ,0 ,0.15);
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bakcground{
+    width: 100%;
+    height: 100vh;
+    margin-top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div{
+    font-size: 30px;
+    display: none;
+    color: black;
+    background-color: rgb(201, 201, 201);
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    position: absolute;
+    left: 50% ;
+    top : 40% ;
+    transform: translate(-50%, -50%);
+}
+
+p{
+    position: absolute;
+    left: 50% ;
+    top : 35% ;
+    transform: translate(-50%, -50%);
+}
+
+.share{
+    width: 10%;
+    height: 10vh;
+    position: absolute;
+    left: 50% ;
+    top : 70% ;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: width 0.15s, height 0.15s;
+}
+
+.share:hover{
+    width: 15%;
+    height: 15%;
+}
+
