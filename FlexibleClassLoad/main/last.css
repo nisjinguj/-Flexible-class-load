@@ -1,10 +1,11 @@
 button{
     font-family: Arial;
     font-size: 68px;
-    padding-top: 20vh;
-    padding-bottom: 20vh;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
     padding-left: 30%;
     padding-right: 30%;
+    text-align : center;
     border-style: none;
     border-radius: 10px;
     background-color: rgb(177, 177, 177);

@@ -75,7 +75,7 @@ function displayQuicknessResult(ageGroup) {
     resultContainer.classList.add('result-container');
     
     const title = document.createElement('h1');
-    title.textContent = `당신의 순발력은 ${ageGroup} 수준 입니다`;
+    title.textContent = `당신의 순발력과 반응속도는 ${ageGroup} 수준 입니다`;
     resultContainer.appendChild(title);
     
     const description1 = document.createElement('h2');
@@ -167,7 +167,7 @@ function a3(){
 }
 
 function last(){
-    const sum = (x + y + z) / 3;
+    const sum = Math.floor((x + y + z) / 3);
     console.log(`sum is calculated as ${sum}`);
     document.getElementById('result').style.display = 'none';
     const resultDiv = document.getElementById('div');
